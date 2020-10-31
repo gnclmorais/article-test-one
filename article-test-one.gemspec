@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "article/test/one/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "article-test-one"
+  spec.name          = "ArticleTestOne"
   spec.version       = Article::Test::One::VERSION
   spec.authors       = ["Gonçalo Morais"]
   spec.email         = ["gnclmorais@gmail.com"]
